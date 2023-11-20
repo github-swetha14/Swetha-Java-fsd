@@ -1,0 +1,26 @@
+<suite name = "TestSuite2" verbose="1">
+    <test name="TestCycle1">
+       <parameter name="username" value="admin"/>
+       <parameter name="password" value="admin@1234"/>
+     <classes>
+        <class name="com.app.TestNG.DataDrivenTesting.ParameterDemo">
+        </class>
+     </classes>
+    </test>
+    <test name="TestCycle2">
+       <parameter name="username" value="john"/>
+       <parameter name="password" value="admin@1234"/>
+     <classes>
+        <class name="com.app.TestNG.DataDrivenTesting.ParameterDemo">
+        </class>
+     </classes>
+    </test>
+    <test name="TestCycle3">
+       <parameter name="username" value="william"/>
+       <parameter name="password" value="admin@1234"/>
+     <classes>
+        <class name="com.app.TestNG.DataDrivenTesting.ParameterDemo">
+        </class>
+     </classes>
+    </test>
+</suite>
